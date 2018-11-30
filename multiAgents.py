@@ -183,15 +183,9 @@ class MinimaxAgent(MultiAgentSearchAgent):
                 bestaction = action
         return bestaction
 
-class AlphaBetaAgent(MultiAgentSearchAgent):
-    """
-      Your minimax agent with alpha-beta pruning (question 3)
-    """
-
-
 class ExpectimaxAgent(MultiAgentSearchAgent):
     """
-      Your expectimax agent (question 4)
+      The expectimax agent
     """
 
     def getAction(self, gameState):
