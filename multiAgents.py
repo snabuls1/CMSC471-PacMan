@@ -246,8 +246,6 @@ def betterEvaluationFunction(currentGameState):
     """
       Your extreme ghost-hunting, pellet-nabbing, food-gobbling, unstoppable
       evaluation function (question 5).
-
-      DESCRIPTION: <write something here so we know what you did>
     """
     "*** YOUR CODE HERE ***"
     if currentGameState.isWin():
